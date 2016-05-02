@@ -101,7 +101,7 @@ def main():
   INFO = dedent('''
   -------- example --------
 
-  python photobygeo.py 55.740701 37.609161 1400619600 1400792400
+  python crystallball.py 41.89128830654374 -87.60077476501465 1400619600 1400792400
 
   -------- about ----------
 
@@ -110,7 +110,7 @@ def main():
   Author: %s
 
   -------- arguments ------
-  ''' % (VERSION, AUTHOR))
+  ''')
   parser = ArgumentParser(description=INFO,
     formatter_class=RawDescriptionHelpFormatter)
   parser.add_argument("latitude", type=str,
