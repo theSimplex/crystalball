@@ -9,7 +9,7 @@ from file_extract import FileExtract
 
 get_tags = FileExtract()
 
-INSTAGRAM_ACCESS_TOKEN = '286274986.db1c311.6bb6935e187349639fd909443591520b'
+INSTAGRAM_ACCESS_TOKEN = ''
 DISTANCE = '1000'
 TIME_INCREMENT = 60 * 60 * 24
 
